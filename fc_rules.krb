@@ -1,0 +1,257 @@
+# Car Dealership Expert System Rules
+
+rule_1 
+    use car_dealership_advice('Tesla Model S 2024')
+    when    
+        questions.unit(True)
+        questions.budget(3,)
+        questions.size(4,)
+        questions.engine(1,)
+
+rule_2
+    use car_dealership_advice('Tesla Model X 2024')
+    when 
+        questions.unit(True)
+        questions.budget(3,)
+        questions.size(4,)
+        questions.engine(1,)
+
+rule_3
+    use car_dealership_advice('Tesla Model 3 2024')
+    when   
+        questions.unit(True) 
+        questions.budget(1,)
+        questions.size(2,)
+        questions.engine(1,)
+
+rule_4
+    use car_dealership_advice('Tesla Model Y 2024')
+    when    
+        questions.unit(True)
+        questions.budget(2,)
+        questions.size(3,)
+        questions.engine(1,)
+
+rule_5 
+    use car_dealership_advice('Nissan Leaf 2024')
+    when   
+        questions.unit(True) 
+        questions.budget(1,)
+        questions.size(2,)
+        questions.engine(1,)
+
+rule_6
+    use car_dealership_advice('Nissan Ariya 2024')
+    when    
+        questions.unit(True)
+        questions.budget(2,)    
+        questions.size(3,)
+        questions.engine(1,)
+
+rule_7
+    use car_dealership_advice('Nissan Leaf 2010')
+    when    
+        questions.unit(False)
+        questions.budget(1,)
+        questions.size(2,)
+        questions.engine(1,)
+
+rule_8
+    use car_dealership_advice('Nissan Altima 2007')
+    when    
+        questions.unit(False)
+        questions.budget(2,)
+        questions.size(3,)
+        questions.engine(1,)
+
+rule_9
+    use car_dealership_advice('Ford Mustang Mach-E 2024')
+    when   
+        questions.unit(True) 
+        questions.budget(2,)
+        questions.size(3,)
+        questions.engine(1,)
+
+rule_10
+    use car_dealership_advice('Ford F-150 Lightning 2024')
+    when   
+        questions.unit(True) 
+        questions.budget(2,)
+        questions.size(4,)
+        questions.engine(1,)
+
+rule_11
+    use car_dealership_advice('Ford Transit 2024')
+    when    
+        questions.unit(True)
+        questions.budget(2,)
+        questions.size(4,)
+        questions.engine(1,)
+
+rule_12 
+    use car_dealership_advice('Ford Escape 2024')
+    when    
+        questions.unit(True)
+        questions.budget(2,)
+        questions.size(3,)
+        questions.engine(1,)
+
+rule_13 
+    use car_dealership_advice('Hyundai Accent 1994')
+    when  
+        questions.unit(False)  
+        questions.budget(1,)
+        questions.size(2,)
+        questions.engine(2,)
+
+rule_14
+    use car_dealership_advice('Hyundai Elantra 2024')
+    when    
+        questions.unit(True)
+        questions.budget(2,)
+        questions.size(2,)
+        questions.engine(2,)
+
+rule_15
+    use car_dealership_advice('Hyundai Sonata 1985')
+    when 
+        questions.unit(False)   
+        questions.budget(2,)
+        questions.size(3,)
+        questions.engine(2,)
+
+rule_16
+    use car_dealership_advice('Hyundai Venue 2024')
+    when   
+        questions.unit(True) 
+        questions.budget(1,)
+        questions.size(3,)
+        questions.engine(2,)
+
+rule_17
+    use car_dealership_advice('Toyota Camry 2024')
+    when   
+        questions.unit(True) 
+        questions.budget(2,)
+        questions.size(3,)
+        questions.engine(2,)
+
+rule_18
+    use car_dealership_advice('Toyota Corolla 2010')
+    when  
+        questions.unit(False)  
+        questions.budget(2,)
+        questions.size(2,)
+        questions.engine(2,)
+
+rule_19
+    use car_dealership_advice('Toyota Avalon 1994')
+    when    
+        questions.unit(False)
+        questions.budget(3,)
+        questions.size(4,)
+        questions.engine(2,)
+
+rule_20
+    use car_dealership_advice('Toyota Yaris 1999')
+    when    
+        questions.unit(False)
+        questions.budget(1,)
+        questions.size(1,)
+        questions.engine(2,)
+
+rule_21
+    use car_dealership_advice('Honda Accord 2023')
+    when    
+        questions.unit(True)
+        questions.budget(2,)
+        questions.size(3,)
+        questions.engine(2,)
+
+rule_22
+    use car_dealership_advice('Honda Civic 2023')
+    when 
+        questions.unit(True)   
+        questions.budget(2,)
+        questions.size(2,)
+        questions.engine(2,)
+
+rule_23
+    use car_dealership_advice('Honda Fit 2001')
+    when    
+        questions.unit(False)
+        questions.budget(1,)
+        questions.size(1,)
+        questions.engine(2,)
+
+rule_24
+    use car_dealership_advice('Honda HR-V 2023')
+    when    
+        questions.unit(True)
+        questions.budget(2,)
+        questions.size(2,)
+        questions.engine(2,)
+
+rule_25
+    use car_dealership_advice('Nissan Altima 1992')
+    when  
+        questions.unit(False)  
+        questions.budget(2,)
+        questions.size(3,)
+        questions.engine(2,)
+
+rule_26
+    use car_dealership_advice('Nissan Maxima 1981')
+    when   
+        questions.unit(False) 
+        questions.budget(3,)
+        questions.size(4,)
+        questions.engine(2,)
+
+rule_27
+    use car_dealership_advice('Nissan Sentra 2023')
+    when   
+        questions.unit(True) 
+        questions.budget(1,)
+        questions.size(2,)
+        questions.engine(2,)
+
+rule_28
+    use car_dealership_advice('Nissan Versa 2023')
+    when    
+        questions.unit(True)
+        questions.budget(1,)
+        questions.size(1,)
+        questions.engine(2,)
+
+rule_29
+    use car_dealership_advice('Toyota Prius prime 2024')
+    when    
+        questions.unit(True)
+        questions.budget(1,)
+        questions.size(3,)
+        questions.engine(3,)
+
+rule_30
+    use car_dealership_advice('Toyota Corolla Hybrid 2024')
+    when    
+        questions.unit(True)
+        questions.budget(1,)
+        questions.size(2,)
+        questions.engine(3,)
+
+rule_31
+    use car_dealership_advice('Toyota Camry Hybrid 2024')
+    when    
+        questions.unit(True)
+        questions.budget(2,)
+        questions.size(3,)
+        questions.engine(3,)
+
+rule_32
+    use car_dealership_advice('Toyota  RAV4 Hybrid 2024')
+    when  
+        questions.unit(True)
+        questions.budget(2,)
+        questions.size(2,)
+        questions.engine(3,)
